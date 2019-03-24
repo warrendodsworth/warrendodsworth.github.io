@@ -5,6 +5,7 @@ Technical Design, Analysis & Development, with a focus on disruptive systems and
 
 ### Find me at
 [Linked In](https://www.linkedin.com/in/warren-dodsworth-4a396722/)
+[Github](https://github.com/warrendodsworth)
 
 ### Technologies I've worked with
 - Salesforce for lead tracking & customer management
@@ -17,16 +18,5 @@ Technical Design, Analysis & Development, with a focus on disruptive systems and
 - Agile development flow with CI pipelines using Azure DevOps (Visual Studio Team Services) and Git for source control.
 - Unit testing with Moq and VS Test.
 
-```markdown
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Freelance projects
+- [Brilliance Gems - Inspire Me - Men of Melbourne Book Campaign](https://brilliancegemsapp.firebaseapp.com)
