@@ -1,5 +1,9 @@
 ## Warren Dodsworth
 
+Technical Design, Analysis & Development, with a focus on disruptive systems and services
+
+
+
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Find me at
