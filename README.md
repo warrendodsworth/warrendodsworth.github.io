@@ -3,11 +3,19 @@
 Technical Design, Analysis & Development, with a focus on disruptive systems and services
 
 
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 ### Find me at
+[Linked In](https://www.linkedin.com/in/warren-dodsworth-4a396722/)
 
+### Technologies I've worked with
+- Salesforce for lead tracking & customer management
+- Angular 1 to 6 websites and 
+- Hybrid Apps with  Ionic (with Angular) 3 & 4 coupled with Cordova 6-8
+- Firebase authentication, real-time, cloud firestore nosql databases & storage
+- Google Maps, Places and Directions APIs. Facebook Graph API.
+- Microsoft .Net 4.5 with MVC, Web Api 2 and Entity Framework 6.
+- Microsoft Azure provisioning including App Services, Storage and Sql Databases, 
+- Agile development flow with CI pipelines using Azure DevOps (Visual Studio Team Services) and Git for source control.
+- Unit testing with Moq and VS Test.
 
 ```markdown
 
@@ -22,11 +30,3 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 [Link](url) and ![Image](src)
 ```
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/warrendodsworth/warrendodsworth.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
