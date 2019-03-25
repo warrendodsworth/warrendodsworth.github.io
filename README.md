@@ -14,12 +14,19 @@ Outgoing, passionate, and great with teams, I work well in a fast-paced environm
 - Salesforce for lead tracking & customer management
 - Angular 1 to 6 websites and 
 - Hybrid Apps with  Ionic (with Angular) 3 & 4 coupled with Cordova 6-8
-- Firebase authentication, real-time, cloud firestore nosql databases & storage
+- Firebase authentication, real-time & cloud firestore nosql databases & storage
 - Google Maps, Places and Directions APIs. Facebook Graph API.
 - Microsoft .Net 4.5 with MVC, Web Api 2 and Entity Framework 6.
-- Microsoft Azure provisioning including App Services, Storage and Sql Databases, 
-- Agile development flow with CI pipelines using Azure DevOps (Visual Studio Team Services) and Git for source control.
-- Unit testing with Moq and VS Test.
+- TVC and Git for source control with Atlassian Bitbucket & Azure DevOps
+- Unit testing with Moq and VS Test
+>
+- Agile development flow using Atlassian JIRA & Azure DevOps (Visual Studio Team Services).
+- TeamCity & Azure CI pipelines for Continuous Integration.
+- Cloud serivces management - Microsoft Azure including App Services, Storage, App Insights and Sql Databases
+- Atlassian Confluence for documentation management.
+- Invision for UI design, Zoom & TeamViewer for presentation
+
+
 
 ### Areas I've handled
 - Design and analysis of business processes to meet the changing needs of the products. 
