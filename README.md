@@ -42,21 +42,20 @@ Outgoing, passionate, and great with teams, I work well in a fast-paced environm
 
 Area | Description | Proficiency | Experience
 ------------ | ------------- | ------------- |  -------------
-Back-end Frameworks | Microsoft .Net 4.5 & Core with Asp.Net Web Forms, MVC Razor, Web Api 2, WCF Services, ADO.Net, Identity Framework and Entity Framework 6 Unit testing with Moq and VS Test.  | Advanced | 7 Years 
+Project Management | Agile methodology using Atlassian JIRA & Confluence, Azure DevOps. | Medium | 3 Years 
 Azure Cloud Platform | Architecting & Developing Azure Solutions, App Services, Storage, SQL Databases, B2C Implementation & Integration, Azure DevOps CI/CD, Application Insights, Azure Key Vault. | Advanced | 4 Years
 Front-end Design | Invision, Canva and Sketch for UI & GIMP for image processing. Business Process Diagrams in UML with MS Visio & LucidCharts. | Advanced | 5 Years 
 Front-end Development | Angular 1-7 (4 years), Firebase (2 years), Typescript, Javascript, HTML, Sass & Less, XML, jQuery RestFul Web APIs. Chrome and Firefox browser extension development (1.5 years). | Advanced | 5 Years 
-Patterns/Architectures | Pattern, Singleton Pattern, Domain Driven Design, Serverless, Architectures (Firebase), Event Driven Architecture | Advanced | 5 Years
-Customer relationship management | Salesforce for lead tracking & customer management. Zoom & TeamViewer for presentations. | Medium | 2 Years
-Versioning Tools | GIT and Team Foundation Server Version Control (TVC) with Azure DevOps & Bitbucket. | Advanced | 7 Years
+Back-end Frameworks | Microsoft .Net 4.5 & Core with Asp.Net Web Forms, MVC Razor, Web Api 2, WCF Services, ADO.Net, Identity Framework and Entity Framework 6 Unit testing with Moq and VS Test.  | Advanced | 7 Year
 Mobile App Development | Ionic 3 & 4 with Cordova, Capacitor Hybrid Apps. | Medium | 3 Years
-Project Management | Agile methodology using Atlassian JIRA & Confluence, Azure DevOps. | Medium | 3 Years
 Mobile App Backend Development | Firebase Authentication, Storage, Hosting, Real-time & Cloud Firestore nosql databases and Cloud Messaging for notifications. | Advanced | 3 Years
 Integrations & Payment Gateways | Google Maps, Places and Directions APIs, Facebook Graph API, Slack. PayPal, Xero API, PayU API etc. | Medium | 4 Years
 Databases | MS SQL Server, SSRS, SSMS, SQL Jobs, Schedulers, MySQL, MongoDB, Firebase Real-time DB & Cloud Firestore Document DB | Medium | 5 Years
-
-
-
+Patterns/Architectures | Pattern, Singleton Pattern, Domain Driven Design, Serverless, Architectures (Firebase), Event Driven Architecture | Advanced | 5 Years
+Customer relationship management | Salesforce for lead tracking & customer management. Zoom & TeamViewer for presentations. | Medium | 2 Years
+Web Servers | IIS 8+, Node. Maintaining server security, SSL certificate requests & installation. | Medium | 3 Years
+Development Tools |  Microsoft Visual Studio IDE, Visual Studio Code SSMS Tools, Android Studio. | Advanced | 7 Years
+Versioning Tools | GIT and Team Foundation Server Version Control (TVC) with Azure DevOps & Bitbucket. | Advanced | 7 Years
 
 
 
