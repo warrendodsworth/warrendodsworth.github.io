@@ -49,6 +49,8 @@ Front-end Development | Angular 1-7 (4 years), Firebase (2 years), Typescript, J
 Patterns/Architectures | Pattern, Singleton Pattern, Domain Driven Design, Serverless, Architectures (Firebase), Event Driven Architecture | Advanced | 5 Years
 Customer relationship management | Salesforce for lead tracking & customer management. Zoom & TeamViewer for presentations. | Medium | 2 Years
 Versioning Tools | GIT and Team Foundation Server Version Control (TVC) with Azure DevOps & Bitbucket. | Advanced | 7 Years
+Mobile App Development | Ionic 3 & 4 with Cordova, Capacitor Hybrid Apps. Medium 3 Years
+Project Management | Agile methodology using Atlassian JIRA & Confluence, Azure DevOps. | Medium | 3 Years
 
 
 
