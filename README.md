@@ -51,6 +51,8 @@ Customer relationship management | Salesforce for lead tracking & customer manag
 Versioning Tools | GIT and Team Foundation Server Version Control (TVC) with Azure DevOps & Bitbucket. | Advanced | 7 Years
 Mobile App Development | Ionic 3 & 4 with Cordova, Capacitor Hybrid Apps. Medium 3 Years
 Project Management | Agile methodology using Atlassian JIRA & Confluence, Azure DevOps. | Medium | 3 Years
+Mobile App Backend Development | Firebase Authentication, Storage, Hosting, Real-time & Cloud Firestore nosql databases and Cloud Messaging for notifications. | Advanced | 3 Years
+Integrations & Payment Gateways | Google Maps, Places and Directions APIs, Facebook Graph API, Slack. PayPal, Xero API, PayU API etc. | Medium | 4 Years
 
 
 
