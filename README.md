@@ -44,10 +44,12 @@ Area | Description | Proficiency | Experience
 ------------ | ------------- | ------------- |  -------------
 Back-end Frameworks | Microsoft .Net 4.5 & Core with Asp.Net Web Forms, MVC Razor, Web Api 2, WCF Services, ADO.Net, Identity Framework and Entity Framework 6 Unit testing with Moq and VS Test.  | Advanced | 7 Years 
 Azure Cloud Platform | Architecting & Developing Azure Solutions, App Services, Storage, SQL Databases, B2C Implementation & Integration, Azure DevOps CI/CD, Application Insights, Azure Key Vault. | Advanced | 4 Years
-Front-end Design | Invision, Canva and Sketch for UI & GIMP for image processing. Business Process Diagrams in UML with MS Visio & LucidCharts. | Advanced | 5 Years
+Front-end Design | Invision, Canva and Sketch for UI & GIMP for image processing. Business Process Diagrams in UML with MS Visio & LucidCharts. | Advanced | 5 Years 
 Front-end Development | Angular 1-7 (4 years), Firebase (2 years), Typescript, Javascript, HTML, Sass & Less, XML, jQuery RestFul Web APIs. Chrome and Firefox browser extension development (1.5 years). | Advanced | 5 Years 
 Patterns/Architectures | Pattern, Singleton Pattern, Domain Driven Design, Serverless, Architectures (Firebase), Event Driven Architecture | Advanced | 5 Years
 Customer relationship management | Salesforce for lead tracking & customer management. Zoom & TeamViewer for presentations. | Medium | 2 Years
+Versioning Tools | GIT and Team Foundation Server Version Control (TVC) with Azure DevOps & Bitbucket. | Advanced | 7 Years
+
 
 
 
