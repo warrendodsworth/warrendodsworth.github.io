@@ -2,7 +2,7 @@
 
 Welcome to my personal page
 
-Outgoing, passionate, and great with teams, I work well in a fast-paced environment and have experience in process analysis, design and a vast array of information systems. 
+Outgoing, passionate, and great with teams, I work well in a fast-paced environment and have experience in process analysis, design and a vast array of information systems.
 
 
 ### Find me at
@@ -12,7 +12,7 @@ Outgoing, passionate, and great with teams, I work well in a fast-paced environm
 
 ### Technologies I've worked with
 - Salesforce for lead tracking & customer management
-- Angular 1 to 6 websites and 
+- Angular 1 to 6 websites and
 - Hybrid Apps with  Ionic (with Angular) 3 & 4 coupled with Cordova 6-8
 - Firebase authentication, real-time & cloud firestore nosql databases & storage
 - Google Maps, Places and Directions APIs. Facebook Graph API.
@@ -29,10 +29,10 @@ Outgoing, passionate, and great with teams, I work well in a fast-paced environm
 
 
 ### Key roles & responsibilities
-- Design and analysis of business processes to meet the changing needs of the products. 
-- Developing multiple IT projects including the web events management portal, it’s partner app and a process management app. 
+- Design and analysis of business processes to meet the changing needs of the products.
+- Developing multiple IT projects including the web events management portal, it’s partner app and a process management app.
 - Business development including marketing strategy and direct sales as well as presenting products at networking events and hackathons
-- Architectural design and backend development including location processing, cross timezone handling, order management, payment processing and transaction auditing as well as an in app social connection system. 
+- Architectural design and backend development including location processing, cross timezone handling, order management, payment processing and transaction auditing as well as an in app social connection system.
 - Social marketing including crafting, analysing results and restructuring ad campaigns for Facebook and Google Ads, as well as email marketing with MailChimp.
 - Customer support, addressing concerns and resolving issues.
 
@@ -42,10 +42,10 @@ Outgoing, passionate, and great with teams, I work well in a fast-paced environm
 
 Area | Description | Proficiency | Experience
 ------------ | ------------- | ------------- |  -------------
-Project Management | Agile methodology using Atlassian JIRA & Confluence, Azure DevOps. | Medium | 3 Years 
+Project Management | Agile methodology using Atlassian JIRA & Confluence, Azure DevOps. | Medium | 3 Years
 Azure Cloud Platform | Architecting & Developing Azure Solutions, App Services, Storage, SQL Databases, B2C Implementation & Integration, Azure DevOps CI/CD, Application Insights, Azure Key Vault. | Advanced | 4 Years
-Front-end Design | Invision, Canva and Sketch for UI & GIMP for image processing. Business Process Diagrams in UML with MS Visio & LucidCharts. | Advanced | 5 Years 
-Front-end Development | Angular 1-7 (4 years), Firebase (2 years), Typescript, Javascript, HTML, Sass & Less, XML, jQuery RestFul Web APIs. Chrome and Firefox browser extension development (1.5 years). | Advanced | 5 Years 
+Front-end Design | Invision, Canva and Sketch for UI & GIMP for image processing. Business Process Diagrams in UML with MS Visio & LucidCharts. | Advanced | 5 Years
+Front-end Development | Angular 1-7 (4 years), Firebase (2 years), Typescript, Javascript, HTML, Sass & Less, XML, jQuery RestFul Web APIs. Chrome and Firefox browser extension development (1.5 years). | Advanced | 5 Years
 Back-end Frameworks | Microsoft .Net 4.5 & Core with Asp.Net Web Forms, MVC Razor, Web Api 2, WCF Services, ADO.Net, Identity Framework and Entity Framework 6 Unit testing with Moq and VS Test.  | Advanced | 7 Year
 Mobile App Development | Ionic 3 & 4 with Cordova, Capacitor Hybrid Apps. | Medium | 3 Years
 Mobile App Backend Development | Firebase Authentication, Storage, Hosting, Real-time & Cloud Firestore nosql databases and Cloud Messaging for notifications. | Advanced | 3 Years
@@ -59,7 +59,9 @@ Versioning Tools | GIT and Team Foundation Server Version Control (TVC) with Azu
 
 
 
+## Personal projects
+- [Wiseguy Investor - Getting people started in investing](https://wiseguyinvestor.com)
 
 ## Freelance projects
-- [Brilliance Gems - Inspire Me - Men of Melbourne Book Campaign](https://brilliancegemsapp.firebaseapp.com)
+- [Inspire Me - Men of Melbourne Book Campaign](https://brilliancegemsapp.firebaseapp.com)
 
