@@ -7,24 +7,26 @@ Outgoing, passionate, and great with teams, I work well in a fast-paced environm
 
 ### Find me at
 - [Linked In](https://www.linkedin.com/in/warren-dodsworth-4a396722/)
-- [Github](https://github.com/warrendodsworth)
+- [Github](https://github.com/warrendodsworth?tab=repositories)
 
 
 ### Technologies I've worked with
-- Salesforce for lead tracking & customer management
-- Angular 1 to 6 websites and
-- Hybrid Apps with  Ionic (with Angular) 3 & 4 coupled with Cordova 6-8
-- Firebase authentication, real-time & cloud firestore nosql databases & storage
-- Google Maps, Places and Directions APIs. Facebook Graph API.
-- Microsoft .Net 4.5 with MVC, Web Api 2 and Entity Framework 6.
-- TVC and Git for source control with Atlassian Bitbucket & Azure DevOps
-- Unit testing with Moq and VS Test
+- Designing, developing & migrating Angular 1-7 websites with Bootstrap.
+- Hybrid Apps with  Ionic (with Angular) 3 & 4 coupled with Cordova 6-8.
+- Firebase (serverless, mobile back-end) authentication, real-time, cloud firestore nosql databases, storage & cloud messaging (notifications).
+- Integrations with Google Maps, Places and Directions APIs, Facebook Graph API, as well as Stripe, Xero & PayU.
+- Microsoft .Net 4.5, .Net Core with MVC, Web Api 2, LINQ, Identity & Entity Framework 6 & 7. Node & Express js.
+- TVC and Git for source control with Atlassian Bitbucket & Azure DevOps.
+- Test Driven Development (TDD) with VS Test & Moq, Karma & Jasmine.
 >
-- Agile development flow using Atlassian JIRA & Azure DevOps (Visual Studio Team Services).
+- Salesforce & Agile CRM for lead tracking & customer management
+- Agile development & project management with Azure DevOps & Atlassian JIRA.
 - TeamCity & Azure CI pipelines for Continuous Integration.
 - Cloud serivces management - Microsoft Azure including App Services, Storage, App Insights and Sql Databases
 - Atlassian Confluence for documentation management.
-- Invision for UI design, Zoom & TeamViewer for presentation
+- Invision, Canva & Gimp for UI design. Zoom & TeamViewer for presentations.
+- Business Process Diagrams in UML with MS Visio & LucidCharts.
+
 
 
 
