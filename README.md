@@ -1,15 +1,24 @@
-## Warren Dodsworth
+# Warren Dodsworth
 
-Welcome to my personal page
+Welcome to my personal page, a bit about me where I've been and where I'm headed.
 
 Outgoing, passionate, and great with teams, I work well in a fast-paced environment and have experience in process analysis, design and a vast array of information systems.
 
-### Find me at
+### Find me on
 
 - [Linked In](https://www.linkedin.com/in/warren-dodsworth-4a396722/)
 - [Github](https://github.com/warrendodsworth?tab=repositories)
 
-### Technologies I've worked with
+## Roles & responsibilities
+
+- Design and analysis of business processes to meet the changing needs of the products.
+- Developing multiple IT projects including the web events management portal, it’s partner app and a process management app.
+- Business development including marketing strategy and direct sales as well as presenting products at networking events and hackathons
+- Architectural design and backend development including location processing, cross timezone handling, order management, payment processing and transaction auditing as well as an in app social connection system.
+- Social marketing including crafting, analysing results and restructuring ad campaigns for Facebook and Google Ads, as well as email marketing with MailChimp.
+- Customer support, addressing concerns and resolving issues.
+
+## Technologies I've worked with
 
 - Designing, developing & migrating Angular 1-7 websites with Bootstrap.
 - Hybrid Apps with Ionic (with Angular) 3 & 4 coupled with Cordova 6-8.
@@ -26,15 +35,6 @@ Outgoing, passionate, and great with teams, I work well in a fast-paced environm
 - Atlassian Confluence for documentation management.
 - Invision, Canva & Gimp for UI design. Zoom & TeamViewer for presentations.
 - Business Process Diagrams in UML with MS Visio & LucidCharts.
-
-### Key roles & responsibilities
-
-- Design and analysis of business processes to meet the changing needs of the products.
-- Developing multiple IT projects including the web events management portal, it’s partner app and a process management app.
-- Business development including marketing strategy and direct sales as well as presenting products at networking events and hackathons
-- Architectural design and backend development including location processing, cross timezone handling, order management, payment processing and transaction auditing as well as an in app social connection system.
-- Social marketing including crafting, analysing results and restructuring ad campaigns for Facebook and Google Ads, as well as email marketing with MailChimp.
-- Customer support, addressing concerns and resolving issues.
 
 ## Skills
 
