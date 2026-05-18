@@ -1,0 +1,47 @@
+baseURL = "https://warrendodsworth.github.io/"
+languageCode = "en-au"
+title = "Warren Dodsworth"
+theme = "blist"
+
+[caches]
+  [caches.getcsv]
+    dir = ":resourceDir/_gen"
+  [caches.getjson]
+    dir = ":resourceDir/_gen"
+  [caches.getresource]
+    dir = ":resourceDir/_gen"
+  [caches.images]
+    dir = ":resourceDir/_gen"
+  [caches.modules]
+    dir = ":resourceDir/_gen"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Writing"
+    url = "/blog/"
+    weight = 2
+
+[params]
+  introTitle = "Warren Dodsworth"
+  introSubtitle = "Building a clearer home on the web for projects, writing, and professional profile content."
+  introPhoto = "/bg-city.jpg"
+  darkModeToggle = true
+  enableSearch = true
+  ascentColor = "bg-stone-100"
+  frontBundle = "blog"
+  copyright = "Copyright © 2026 Warren Dodsworth"
+
+  [params.homepage.social]
+    title = "Find me online"
+    description = "The site content is being migrated into Hugo. For now, GitHub is the main public home."
+
+    [[params.homepage.social.icons]]
+      website = "github"
+      url = "https://github.com/warrendodsworth"
