@@ -36,7 +36,12 @@ const pageMeta = {
 }[entry.id];
 ---
 
-<BaseLayout title={`${entry.data.title} | Warren Dodsworth`} description={entry.data.description} path={path}>
+<BaseLayout
+  title={`${entry.data.title} | Warren Dodsworth`}
+  description={entry.data.description}
+  path={path}
+  ogImage={pageMeta?.image ?? "/bg-about.jpg"}
+>
   <section class="page-hero">
     <div class="shell page-grid">
       <div class="panel page-copy">
@@ -67,11 +72,6 @@ const pageMeta = {
           </div>
         </div>
       )}
-    </div>
-  </section>
-</BaseLayout>
-        </div>
-      </div>
     </div>
   </section>
 </BaseLayout>

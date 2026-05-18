@@ -5,7 +5,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 const posts = await getCollection("blog");
 ---
 
-<BaseLayout title="Writing | Warren Dodsworth" path="/writing/">
+<BaseLayout
+  title="Writing | Warren Dodsworth"
+  description="Writing, notes, and longer-form thinking from Warren Dodsworth."
+  path="/writing/"
+  ogImage="/bg-shrine.jpg"
+>
   <section class="page-hero">
     <div class="shell stack">
       <div class="panel page-copy">

@@ -5,7 +5,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 const projects = await getCollection("projects");
 ---
 
-<BaseLayout title="Projects | Warren Dodsworth" path="/projects/">
+<BaseLayout
+  title="Projects | Warren Dodsworth"
+  description="Selected projects and case studies from Warren Dodsworth."
+  path="/projects/"
+  ogImage="/bg-city2.jpg"
+>
   <section class="page-hero">
     <div class="shell stack">
       <div class="panel page-copy">
