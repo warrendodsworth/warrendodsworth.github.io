@@ -209,9 +209,15 @@ h1 {
 
 .card p,
 .page-copy p,
-.page-copy li {
+.page-copy li,
+.collection-copy p,
+.collection-copy li {
   color: var(--muted);
   line-height: 1.7;
+}
+
+.collection-copy ul {
+  padding-left: 1.25rem;
 }
 
 .kicker {
