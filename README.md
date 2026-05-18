@@ -1,22 +1,22 @@
 # Warren Dodsworth Site
 
-Hugo-based source for `warrendodsworth.github.io`, using the `blist` theme as a starting point while the site structure and design are refined.
+Astro-based source for `warrendodsworth.github.io`, set up for GitHub Pages and ready to evolve into a personal brand site with writing, projects, and selective interactive components.
 
 ## Current status
 
-- Hugo site builds locally
+- Astro static site scaffold is in place
 - GitHub Pages deployment is configured through GitHub Actions
-- Jekyll-specific config has been removed
-- Hugo build artifacts are ignored
+- Hugo-specific app structure has been removed
+- Reusable image assets have been preserved under `public/`
 
 ## Local development
 
 1. Install dependencies with `npm install`
-2. Run the dev server with `hugo server`
-3. Build the production site with `hugo --gc --minify`
+2. Start the dev server with `npm run dev`
+3. Build the production site with `npm run build`
+4. Preview the production build with `npm run preview`
 
 ## Notes
 
-- The site currently vendors the `blist` theme under `themes/blist`
-- Issue `#1` covers Hugo and Pages setup
-- Issue `#2` is the next step for defining the long-term site structure
+- The current implementation is the Astro foundation pass for issue `#7`
+- Follow-on issues will define content collections, page structure, and content migration

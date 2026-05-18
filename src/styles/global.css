@@ -1,0 +1,261 @@
+:root {
+  --bg: #f6f1e8;
+  --surface: rgba(255, 252, 247, 0.78);
+  --surface-strong: #fffaf2;
+  --text: #182028;
+  --muted: #5a6472;
+  --line: rgba(24, 32, 40, 0.12);
+  --accent: #b85c38;
+  --accent-deep: #7f3720;
+  --shadow: 0 24px 60px rgba(29, 24, 19, 0.12);
+  --radius: 24px;
+  --max: 1120px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Georgia, "Times New Roman", serif;
+  background:
+    radial-gradient(circle at top left, rgba(184, 92, 56, 0.16), transparent 28%),
+    radial-gradient(circle at right 18%, rgba(92, 117, 146, 0.18), transparent 22%),
+    linear-gradient(180deg, #fbf6ee 0%, #f2ebdf 100%);
+  color: var(--text);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.shell {
+  width: min(calc(100% - 2rem), var(--max));
+  margin: 0 auto;
+}
+
+.site-header {
+  padding: 1.25rem 0;
+}
+
+.site-header .shell {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.nav a:hover,
+.nav a[aria-current="page"] {
+  color: var(--accent-deep);
+}
+
+main {
+  padding-bottom: 4rem;
+}
+
+.hero {
+  padding: 2rem 0 3rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.panel {
+  background: var(--surface);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.hero-copy {
+  padding: 2.25rem;
+}
+
+.eyebrow {
+  color: var(--accent-deep);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  line-height: 1.05;
+}
+
+h1 {
+  font-size: clamp(2.8rem, 6vw, 5.8rem);
+  max-width: 10ch;
+}
+
+.hero-copy p,
+.lead {
+  color: var(--muted);
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.hero-actions,
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 1.75rem;
+}
+
+.button,
+.button-muted {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.9rem;
+  padding: 0 1.1rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  transition: 180ms ease;
+}
+
+.button {
+  background: var(--accent);
+  color: #fffaf6;
+}
+
+.button:hover {
+  background: var(--accent-deep);
+}
+
+.button-muted {
+  border-color: var(--line);
+  background: rgba(255, 255, 255, 0.46);
+}
+
+.button-muted:hover {
+  border-color: rgba(24, 32, 40, 0.25);
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.hero-image {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section {
+  padding: 1rem 0 2rem;
+}
+
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section-head p {
+  color: var(--muted);
+  max-width: 42rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  padding: 1.5rem;
+}
+
+.card p,
+.page-copy p,
+.page-copy li {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.kicker {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  color: var(--accent-deep);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.78rem;
+}
+
+.page-hero {
+  padding: 1rem 0 2rem;
+}
+
+.page-hero .panel,
+.page-copy {
+  padding: 2rem;
+}
+
+.stack {
+  display: grid;
+  gap: 1rem;
+}
+
+.site-footer {
+  padding: 2rem 0 3rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 900px) {
+  .hero-grid,
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .site-header .shell,
+  .section-head {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  h1 {
+    max-width: none;
+  }
+}
