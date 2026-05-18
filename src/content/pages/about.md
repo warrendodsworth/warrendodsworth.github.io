@@ -6,7 +6,9 @@ kicker: About
 order: 1
 ---
 
-Warren Dodsworth works across product delivery, engineering implementation, and business-facing problem solving. The strongest thread through the work is turning broad goals into clearer systems, better execution, and products that can actually be operated.
+Warren Dodsworth is a Melbourne-based product builder working across delivery, engineering implementation, and business-facing problem solving. The strongest thread through the work is turning broad goals into clearer systems, better execution, and products that can actually be operated.
+
+The work tends to sit at the intersection of product strategy and hands-on building: shaping ideas, deciding what matters, and then helping turn that into something people can actually use. That has included work in business tools, consumer-facing experiences, finance-adjacent products, and projects aimed at clarity, motivation, and decision support.
 
 ## What I tend to do best
 
@@ -25,6 +27,14 @@ The earlier profile material covered a broad mix of responsibilities, but the re
 - Marketing and campaign support across Facebook Ads, Google Ads, and email workflows
 - Customer-facing problem solving when products were live and in active use
 
+## Product perspective
+
+One of the clearer shifts in the recent work is toward building tools that simplify complexity for the person on the other side of the screen.
+
+- Insight 91 grew from the need for a cleaner way to gauge markets for buy-and-hold and passive investors
+- Linkmate was part of earlier work aimed at emotional wellbeing and connection
+- Across both, the pattern is similar: reduce noise, improve clarity, and make better decisions easier
+
 ## Technical background
 
 The stack history is broad, but a few clusters stand out most:
@@ -41,6 +51,12 @@ I work best where product decisions, technical implementation, and operational r
 - keeping teams moving without losing sight of architecture
 - structuring work so it remains understandable as complexity grows
 - being comfortable with both delivery detail and the broader commercial context
+
+I’m also drawn to products that teach while they help. That is part of what makes domains like investing, self-reflection, and decision support interesting to me: good tools can improve confidence, not just output.
+
+## Broader interests
+
+Outside the implementation detail, the themes that keep showing up are long-term thinking, self-reflection, and practical learning. Stoicism, investing, and product design all overlap there more than they first appear: they reward clarity, patience, and better judgment over noise.
 
 ## What still needs expansion
 
