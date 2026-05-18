@@ -1,0 +1,32 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+
+  return posts.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const path = `/writing/${entry.id}/`;
+---
+
+<BaseLayout title={`${entry.data.title} | Writing | Warren Dodsworth`} description={entry.data.description} path={path}>
+  <section class="page-hero">
+    <div class="shell">
+      <div class="panel page-copy">
+        <span class="kicker">Writing</span>
+        <h1>{entry.data.title}</h1>
+        <p class="lead">{entry.data.summary}</p>
+        <div class="collection-copy">
+          <Content />
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

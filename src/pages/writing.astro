@@ -1,17 +1,30 @@
 ---
+import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
+
+const posts = await getCollection("blog");
 ---
 
 <BaseLayout title="Writing | Warren Dodsworth" path="/writing/">
   <section class="page-hero">
-    <div class="shell">
+    <div class="shell stack">
       <div class="panel page-copy">
         <span class="kicker">Writing</span>
         <h1>Notes, essays, and longer-form thinking.</h1>
         <p>
-          The writing section will be backed by Astro content collections in the next planning step,
-          giving the site a cleaner publishing workflow than the previous static profile approach.
+          The writing section is now wired to an Astro content collection so posts can follow a
+          structured, validated publishing model from the start.
         </p>
+      </div>
+      <div class="grid">
+        {posts.map((post) => (
+          <article class="panel card">
+            <h3>
+              <a href={`/writing/${post.id}/`}>{post.data.title}</a>
+            </h3>
+            <p>{post.data.summary}</p>
+          </article>
+        ))}
       </div>
     </div>
   </section>

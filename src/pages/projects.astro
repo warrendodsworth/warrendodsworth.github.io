@@ -1,5 +1,8 @@
 ---
+import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
+
+const projects = await getCollection("projects");
 ---
 
 <BaseLayout title="Projects | Warren Dodsworth" path="/projects/">
@@ -9,23 +12,19 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         <span class="kicker">Projects</span>
         <h1>Case studies, product work, and selected builds.</h1>
         <p>
-          This section will hold structured project entries and richer case studies once the Astro
-          content model is in place.
+          Structured project entries now live in an Astro content collection, giving the site a
+          clean path toward richer case studies and future showcase pages.
         </p>
       </div>
       <div class="grid">
-        <article class="panel card">
-          <h3>Wiseguy Investor</h3>
-          <p>A future case study placeholder for the investing-focused personal project.</p>
-        </article>
-        <article class="panel card">
-          <h3>Inspire Me</h3>
-          <p>A future case study placeholder for the Men of Melbourne book campaign work.</p>
-        </article>
-        <article class="panel card">
-          <h3>More selected work</h3>
-          <p>Additional projects will be added here as the old profile content is migrated.</p>
-        </article>
+        {projects.map((project) => (
+          <article class="panel card">
+            <h3>
+              <a href={`/projects/${project.id}/`}>{project.data.title}</a>
+            </h3>
+            <p>{project.data.summary}</p>
+          </article>
+        ))}
       </div>
     </div>
   </section>
