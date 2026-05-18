@@ -16,13 +16,19 @@ const projects = await getCollection("projects");
           clean path toward richer case studies and future showcase pages.
         </p>
       </div>
-      <div class="grid">
+      <div class="grid project-grid">
         {projects.map((project) => (
-          <article class="panel card">
+          <article class={`panel card ${project.data.featured ? "card--feature" : ""}`}>
+            <span class="meta-label">{project.data.status}</span>
             <h3>
               <a href={`/projects/${project.id}/`}>{project.data.title}</a>
             </h3>
             <p>{project.data.summary}</p>
+            <div class="tag-row">
+              {project.data.techStack.map((item) => (
+                <span>{item}</span>
+              ))}
+            </div>
           </article>
         ))}
       </div>

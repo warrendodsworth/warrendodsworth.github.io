@@ -19,22 +19,45 @@ const path = `/projects/${entry.id}/`;
 <BaseLayout title={`${entry.data.title} | Projects | Warren Dodsworth`} description={entry.data.description} path={path}>
   <section class="page-hero">
     <div class="shell stack">
-      <div class="panel page-copy">
-        <span class="kicker">Project</span>
-        <h1>{entry.data.title}</h1>
-        <p class="lead">{entry.data.summary}</p>
-        <ul>
-          <li><strong>Status:</strong> {entry.data.status}</li>
-          <li><strong>Role:</strong> {entry.data.role}</li>
-          <li><strong>Client:</strong> {entry.data.client}</li>
-        </ul>
-        {entry.data.externalUrl && (
+      <div class="project-hero">
+        <div class="panel page-copy">
+          <span class="kicker">Project</span>
+          <h1>{entry.data.title}</h1>
+          <p class="lead">{entry.data.summary}</p>
           <div class="card-actions">
-            <a class="button" href={entry.data.externalUrl} target="_blank" rel="noreferrer">
-              Visit project
-            </a>
+            {entry.data.externalUrl && (
+              <a class="button" href={entry.data.externalUrl} target="_blank" rel="noreferrer">
+                Visit project
+              </a>
+            )}
+            <a class="button-muted" href="/projects/">Back to projects</a>
           </div>
-        )}
+        </div>
+        <div class="panel project-facts">
+          <div class="fact-grid">
+            <div>
+              <span class="meta-label">Status</span>
+              <strong>{entry.data.status}</strong>
+            </div>
+            <div>
+              <span class="meta-label">Role</span>
+              <strong>{entry.data.role}</strong>
+            </div>
+            <div>
+              <span class="meta-label">Client</span>
+              <strong>{entry.data.client}</strong>
+            </div>
+            <div>
+              <span class="meta-label">Format</span>
+              <strong>{entry.data.caseStudy ? "Case study" : "Project"}</strong>
+            </div>
+          </div>
+          <div class="tag-row">
+            {entry.data.techStack.map((item) => (
+              <span>{item}</span>
+            ))}
+          </div>
+        </div>
       </div>
       <div class="panel page-copy collection-copy">
         <Content />

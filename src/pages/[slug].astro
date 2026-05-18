@@ -14,16 +14,62 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const path = `/${entry.id}/`;
+const pageMeta = {
+  about: {
+    image: "/bg-about.jpg",
+    asideTitle: "How the site is being shaped",
+    asideBody:
+      "The profile is moving toward a clearer story about delivery, systems thinking, and product execution rather than a dense chronological CV.",
+  },
+  now: {
+    image: "/bg-city2.jpg",
+    asideTitle: "Why this page exists",
+    asideBody:
+      "A dedicated now page keeps current priorities visible without forcing them into the evergreen About page.",
+  },
+  contact: {
+    image: "/bg-shrine.jpg",
+    asideTitle: "Preferred channels",
+    asideBody:
+      "Contact will stay simple and public-facing, with direct links to the channels that already matter most.",
+  },
+}[entry.id];
 ---
 
 <BaseLayout title={`${entry.data.title} | Warren Dodsworth`} description={entry.data.description} path={path}>
   <section class="page-hero">
-    <div class="shell">
+    <div class="shell page-grid">
       <div class="panel page-copy">
-        {entry.data.kicker && <span class="kicker">{entry.data.kicker}</span>}
-        <h1>{entry.data.intro}</h1>
-        <div class="collection-copy">
+        <div class="page-copy__head">
+          {entry.data.kicker && <span class="kicker">{entry.data.kicker}</span>}
+          <h1>{entry.data.intro}</h1>
+        </div>
+        <div class="collection-copy prose-space">
           <Content />
+        </div>
+      </div>
+      {pageMeta && (
+        <aside class="panel page-aside">
+          <img src={pageMeta.image} alt="" />
+          <div class="page-aside__body">
+            <span class="kicker">Editorial note</span>
+            <h2>{pageMeta.asideTitle}</h2>
+            <p>{pageMeta.asideBody}</p>
+          </div>
+        </aside>
+      )}
+      {!pageMeta && (
+        <div class="panel page-aside page-aside--text">
+          <div class="page-aside__body">
+            <span class="kicker">Page</span>
+            <h2>{entry.data.title}</h2>
+            <p>{entry.data.description}</p>
+          </div>
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>
         </div>
       </div>
     </div>

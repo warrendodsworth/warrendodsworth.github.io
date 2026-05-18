@@ -1,19 +1,15 @@
 ---
+import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const highlights = [
-  {
-    title: "Projects with room to grow",
-    body: "Astro gives the site a strong static foundation now and a clear path to richer product, portfolio, and demo pages later.",
-  },
-  {
-    title: "Writing-ready from the start",
-    body: "The site is being rebuilt to support essays, notes, and publishing without forcing everything into a resume format.",
-  },
-  {
-    title: "Selective interactivity",
-    body: "React, Vue, or Svelte components can be embedded only where they earn their keep, keeping most pages lean and fast.",
-  },
+const allProjects = await getCollection("projects");
+const allPosts = await getCollection("blog");
+const featuredProjects = allProjects.filter((project) => project.data.featured);
+const latestPost = allPosts[0];
+const pillars = [
+  "Product-minded engineering across web, mobile, and cloud delivery",
+  "Space for future demos, dashboards, and selective interactive islands",
+  "A cleaner home for writing, case studies, and positioning",
 ];
 ---
 
@@ -24,23 +20,38 @@ const highlights = [
 >
   <section class="hero">
     <div class="shell hero-grid">
-      <div class="panel hero-copy">
-        <div class="eyebrow">Astro Foundation</div>
-        <h1>Building a sharper home on the web.</h1>
+      <div class="panel hero-copy hero-copy--wide">
+        <div class="eyebrow">Product, delivery, and modern web systems</div>
+        <h1>Building digital products with more structure than noise.</h1>
         <p>
-          This site is moving from a simple profile page into a modern Astro-based platform for
-          writing, project stories, and future interactive demos.
+          Warren Dodsworth’s site is evolving into a sharper public home for selected work,
+          writing, and a practical point of view on product delivery, engineering, and growth.
         </p>
         <div class="hero-actions">
-          <a class="button" href="/projects/">See the direction</a>
+          <a class="button" href="/projects/">View selected work</a>
           <a class="button-muted" href="/about/">Read the profile</a>
         </div>
+        <ul class="hero-points">
+          {pillars.map((pillar) => (
+            <li>{pillar}</li>
+          ))}
+        </ul>
       </div>
-      <div class="panel hero-image">
-        <img
-          src="/bg-city.jpg"
-          alt="City skyline used as a visual placeholder for the site rebuild"
-        />
+      <div class="hero-stack">
+        <div class="panel hero-note">
+          <span class="kicker">Current direction</span>
+          <h2>Static-first, content-rich, and ready for richer demos later.</h2>
+          <p>
+            Astro gives the site a strong editorial base now without blocking charts, experiments,
+            or embedded product flows later.
+          </p>
+        </div>
+        <div class="panel hero-image">
+          <img
+            src="/bg-city.jpg"
+            alt="City skyline used as a visual backdrop for the personal site"
+          />
+        </div>
       </div>
     </div>
   </section>
@@ -49,21 +60,74 @@ const highlights = [
     <div class="shell">
       <div class="section-head">
         <div>
-          <span class="kicker">Why Astro</span>
-          <h2>Static-first without boxing the site in.</h2>
+          <span class="kicker">What this site is for</span>
+          <h2>Clear positioning, credible work, and room to expand.</h2>
         </div>
         <p>
-          The framework pivot sets the site up for strong performance, clean content structure,
-          modern SEO defaults, and interactive islands only where they add value.
+          The next iterations are about making the site feel more like a considered product and
+          less like a generic profile dump.
         </p>
       </div>
+      <div class="feature-band">
+        <article class="panel feature-card feature-card--accent">
+          <span class="kicker">About</span>
+          <h3>Cross-functional delivery with product instincts.</h3>
+          <p>
+            The site is being shaped around engineering, architecture, delivery, and the ability
+            to turn broad ideas into real systems.
+          </p>
+          <a class="button-muted" href="/about/">Explore profile</a>
+        </article>
+        <article class="panel feature-card">
+          <span class="kicker">Projects</span>
+          <h3>Case studies instead of long resume lists.</h3>
+          <p>
+            Selected projects will become narrative entries with scope, role, stack, and outcomes
+            instead of a single overloaded page.
+          </p>
+          <a class="button-muted" href="/projects/">Browse projects</a>
+        </article>
+        <article class="panel feature-card feature-card--image">
+          <img src="/bg-about.jpg" alt="Abstract shrine and landscape background" />
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <div class="section-head">
+        <div>
+          <span class="kicker">Featured work</span>
+          <h2>Structured now, richer later.</h2>
+        </div>
+        <p>The content model is already ready to support fuller case studies.</p>
+      </div>
       <div class="grid">
-        {highlights.map((item) => (
+        {featuredProjects.map((project) => (
           <article class="panel card">
-            <h3>{item.title}</h3>
-            <p>{item.body}</p>
+            <span class="meta-label">{project.data.client}</span>
+            <h3>
+              <a href={`/projects/${project.id}/`}>{project.data.title}</a>
+            </h3>
+            <p>{project.data.summary}</p>
+            <div class="tag-row">
+              {project.data.techStack.map((item) => (
+                <span>{item}</span>
+              ))}
+            </div>
           </article>
         ))}
+        {latestPost && (
+          <article class="panel card card--contrast">
+            <span class="meta-label">Writing</span>
+            <h3>
+              <a href={`/writing/${latestPost.id}/`}>{latestPost.data.title}</a>
+            </h3>
+            <p>{latestPost.data.summary}</p>
+            <a class="button-muted" href="/writing/">Open writing</a>
+          </article>
+        )}
       </div>
     </div>
   </section>
