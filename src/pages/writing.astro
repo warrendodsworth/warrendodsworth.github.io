@@ -18,11 +18,17 @@ const posts = await getCollection("blog");
       </div>
       <div class="grid">
         {posts.map((post) => (
-          <article class="panel card">
+          <article class={`panel card ${post.data.featured ? "card--contrast" : ""}`}>
+            <span class="meta-label">{post.data.pubDate.toLocaleDateString("en-AU")}</span>
             <h3>
               <a href={`/writing/${post.id}/`}>{post.data.title}</a>
             </h3>
             <p>{post.data.summary}</p>
+            <div class="tag-row">
+              {post.data.tags.map((tag) => (
+                <span>{tag}</span>
+              ))}
+            </div>
           </article>
         ))}
       </div>

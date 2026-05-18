@@ -18,15 +18,31 @@ const path = `/writing/${entry.id}/`;
 
 <BaseLayout title={`${entry.data.title} | Writing | Warren Dodsworth`} description={entry.data.description} path={path}>
   <section class="page-hero">
-    <div class="shell">
+    <div class="shell page-grid page-grid--writing">
       <div class="panel page-copy">
         <span class="kicker">Writing</span>
         <h1>{entry.data.title}</h1>
         <p class="lead">{entry.data.summary}</p>
-        <div class="collection-copy">
+        <div class="tag-row">
+          {entry.data.tags.map((tag) => (
+            <span>{tag}</span>
+          ))}
+        </div>
+        <div class="collection-copy prose-space">
           <Content />
         </div>
       </div>
+      <aside class="panel page-aside page-aside--text">
+        <div class="page-aside__body">
+          <span class="kicker">Publishing model</span>
+          <h2>Collection-backed writing.</h2>
+          <p>
+            Writing entries are now structured as first-class Astro content so they can grow into a
+            real publishing section instead of being bolted onto a profile page.
+          </p>
+          <p class="meta-block">{entry.data.pubDate.toLocaleDateString("en-AU")}</p>
+        </div>
+      </aside>
     </div>
   </section>
 </BaseLayout>
