@@ -1,0 +1,70 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const highlights = [
+  {
+    title: "Projects with room to grow",
+    body: "Astro gives the site a strong static foundation now and a clear path to richer product, portfolio, and demo pages later.",
+  },
+  {
+    title: "Writing-ready from the start",
+    body: "The site is being rebuilt to support essays, notes, and publishing without forcing everything into a resume format.",
+  },
+  {
+    title: "Selective interactivity",
+    body: "React, Vue, or Svelte components can be embedded only where they earn their keep, keeping most pages lean and fast.",
+  },
+];
+---
+
+<BaseLayout
+  title="Warren Dodsworth"
+  description="Astro-based personal site for Warren Dodsworth, built for projects, writing, and modern product-style pages."
+  path="/"
+>
+  <section class="hero">
+    <div class="shell hero-grid">
+      <div class="panel hero-copy">
+        <div class="eyebrow">Astro Foundation</div>
+        <h1>Building a sharper home on the web.</h1>
+        <p>
+          This site is moving from a simple profile page into a modern Astro-based platform for
+          writing, project stories, and future interactive demos.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="/projects/">See the direction</a>
+          <a class="button-muted" href="/about/">Read the profile</a>
+        </div>
+      </div>
+      <div class="panel hero-image">
+        <img
+          src="/bg-city.jpg"
+          alt="City skyline used as a visual placeholder for the site rebuild"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <div class="section-head">
+        <div>
+          <span class="kicker">Why Astro</span>
+          <h2>Static-first without boxing the site in.</h2>
+        </div>
+        <p>
+          The framework pivot sets the site up for strong performance, clean content structure,
+          modern SEO defaults, and interactive islands only where they add value.
+        </p>
+      </div>
+      <div class="grid">
+        {highlights.map((item) => (
+          <article class="panel card">
+            <h3>{item.title}</h3>
+            <p>{item.body}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

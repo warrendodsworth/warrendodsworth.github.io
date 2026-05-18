@@ -1,6 +1,4 @@
 
 /node_modules
-/.hugo_cache
-/.hugo_build.lock
-/public
-/resources
+/.astro
+/dist
