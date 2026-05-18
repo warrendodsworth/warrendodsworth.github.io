@@ -3,7 +3,7 @@ title: Site rebuild notes
 description: A placeholder post for the Astro writing collection.
 summary: Notes from moving the site foundation from a resume-style placeholder to a structured Astro setup.
 pubDate: 2026-05-19
-draft: true
+draft: false
 tags:
   - astro
   - personal-site

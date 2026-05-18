@@ -1,19 +1,25 @@
 ---
 import "../styles/global.css";
+import { siteConfig } from "../site";
 
 interface Props {
   title: string;
   description?: string;
   path?: string;
+  ogImage?: string;
+  ogType?: "website" | "article";
 }
 
 const {
   title,
-  description = "Personal site for Warren Dodsworth covering projects, writing, and professional profile work.",
+  description = siteConfig.description,
   path = "/",
+  ogImage = siteConfig.ogImage,
+  ogType = "website",
 } = Astro.props;
 
 const canonical = new URL(path, Astro.site);
+const imageUrl = new URL(ogImage, Astro.site);
 const navItems = [
   { href: "/about/", label: "About" },
   { href: "/projects/", label: "Projects" },
@@ -30,7 +36,19 @@ const navItems = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta name="author" content={siteConfig.author} />
     <link rel="canonical" href={canonical} />
+    <meta property="og:site_name" content={siteConfig.title} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={imageUrl} />
+    <meta property="og:image:alt" content={title} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={imageUrl} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -65,6 +83,7 @@ const navItems = [
           <a href="/projects/">Projects</a>
           <a href="/writing/">Writing</a>
           <a href="/contact/">Contact</a>
+          <a href="/rss.xml">RSS</a>
         </div>
       </div>
     </footer>

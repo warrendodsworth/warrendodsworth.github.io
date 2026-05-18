@@ -16,7 +16,13 @@ const { Content } = await render(entry);
 const path = `/writing/${entry.id}/`;
 ---
 
-<BaseLayout title={`${entry.data.title} | Writing | Warren Dodsworth`} description={entry.data.description} path={path}>
+<BaseLayout
+  title={`${entry.data.title} | Writing | Warren Dodsworth`}
+  description={entry.data.description}
+  path={path}
+  ogImage="/bg-shrine.jpg"
+  ogType="article"
+>
   <section class="page-hero">
     <div class="shell page-grid page-grid--writing">
       <div class="panel page-copy">
@@ -41,6 +47,9 @@ const path = `/writing/${entry.id}/`;
             real publishing section instead of being bolted onto a profile page.
           </p>
           <p class="meta-block">{entry.data.pubDate.toLocaleDateString("en-AU")}</p>
+          <div class="card-actions">
+            <a class="button-muted" href="/rss.xml">Follow via RSS</a>
+          </div>
         </div>
       </aside>
     </div>
