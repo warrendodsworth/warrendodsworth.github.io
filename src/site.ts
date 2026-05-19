@@ -3,7 +3,7 @@ export const siteConfig = {
   description:
     "Personal site for Warren Dodsworth covering projects, writing, and practical product delivery work.",
   author: "Warren Dodsworth",
-  ogImage: "/bg-city.jpg",
+  ogImage: "/og-social-preview.png",
   social: {
     github: "https://github.com/warrendodsworth",
     linkedin: "https://www.linkedin.com/in/warren-dodsworth-4a396722/",
