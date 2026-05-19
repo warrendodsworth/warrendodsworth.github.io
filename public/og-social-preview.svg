@@ -6,9 +6,9 @@
       <stop offset="0%" stop-color="#0b1020" />
       <stop offset="100%" stop-color="#131a2a" />
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ff6cab" />
-      <stop offset="100%" stop-color="#6f63ff" />
+    <linearGradient id="accent" x1="0.18" y1="0.22" x2="0.84" y2="0.78">
+      <stop offset="0%" stop-color="#ff7db9" />
+      <stop offset="100%" stop-color="#8c76ff" />
     </linearGradient>
     <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientTransform="translate(186 122) rotate(32) scale(500 340)" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#ff6cab" stop-opacity="0.24" />
@@ -28,54 +28,17 @@
   <rect width="1200" height="630" fill="url(#grid)" opacity="0.28" />
 
   <g transform="translate(86 72)">
-    <rect width="132" height="132" rx="36" fill="#11172a" stroke="rgba(255,255,255,0.12)" />
-    <path
-      d="M30 98 L44 35 L58 72 L72 35 L87 71 L102 98"
-      fill="none"
-      stroke="url(#accent)"
-      stroke-width="11"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
+    <rect width="132" height="132" rx="36" fill="#1b2744" stroke="rgba(255,255,255,0.08)" />
+    <path d="M30 35H59L39 100L30 35Z" fill="url(#accent)" />
+    <path d="M63 35H102L65.5 100L51.5 66L63 35Z" fill="url(#accent)" />
   </g>
 
   <g fill="#f7efe5">
-    <text x="86" y="278" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="32" letter-spacing="7" text-transform="uppercase" opacity="0.78">
-      PERSONAL SITE
-    </text>
-    <text x="86" y="376" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="86" font-weight="700">
+    <text x="86" y="320" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="92" font-weight="700">
       Warren Dodsworth
     </text>
-    <text x="86" y="450" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="34" opacity="0.86">
-      Product delivery, engineering systems, and practical digital work.
-    </text>
-    <text x="86" y="536" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="26" opacity="0.64">
-      warrendodsworth.github.io
-    </text>
-  </g>
-
-  <g transform="translate(892 120)">
-    <rect width="222" height="382" rx="30" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.09)" />
-    <rect x="28" y="28" width="166" height="166" rx="24" fill="rgba(255,255,255,0.03)" />
-    <path
-      d="M58 145 L76 63 L96 112 L111 63 L132 112 L153 145"
-      fill="none"
-      stroke="url(#accent)"
-      stroke-width="16"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
-    <text x="28" y="248" fill="#f7efe5" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="22" letter-spacing="4" opacity="0.66">
-      FOUNDER
-    </text>
-    <text x="28" y="292" fill="#f7efe5" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="32" font-weight="700">
-      Project-led,
-    </text>
-    <text x="28" y="332" fill="#f7efe5" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="32" font-weight="700">
-      product-minded,
-    </text>
-    <text x="28" y="372" fill="#f7efe5" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="32" font-weight="700">
-      execution-focused.
+    <text x="86" y="404" font-family="'Avenir Next', 'Segoe UI', Arial, sans-serif" font-size="36" opacity="0.86">
+      Tech consulting, AI-native systems, business solutions that ship.
     </text>
   </g>
 </svg>
