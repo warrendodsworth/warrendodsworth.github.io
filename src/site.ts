@@ -1,7 +1,7 @@
 export const siteConfig = {
   title: "Warren Dodsworth",
   description:
-    "Personal site for Warren Dodsworth covering projects, writing, and practical product delivery work.",
+    "Tech consulting, AI-native systems, business solutions that ship.",
   author: "Warren Dodsworth",
   ogImage: "/og-social-preview.png",
   social: {
