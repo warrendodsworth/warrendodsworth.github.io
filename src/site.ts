@@ -1,7 +1,7 @@
 export const siteConfig = {
   title: "Warren Dodsworth",
   description:
-    "Tech consulting, AI-native systems, business solutions that ship.",
+    "Tech consulting, business systems, and AI-native solutions designed to move ideas into execution.",
   author: "Warren Dodsworth",
   ogImage: "/og-social-preview.png",
   social: {
