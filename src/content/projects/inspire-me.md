@@ -14,7 +14,7 @@ caseStudy: true
 externalUrl: https://inspire-me.co
 ---
 
-Inspire Me is the current placeholder for freelance and campaign-oriented work that sat closer to delivery, support, and shaping the digital presence around a public-facing initiative.
+Inspire Me sat closer to campaign delivery than product ownership, but it still drew on the same strengths: helping public-facing digital work stay organised, coherent, and aligned with the broader initiative around it.
 
 ## Focus
 
@@ -24,10 +24,8 @@ Inspire Me is the current placeholder for freelance and campaign-oriented work t
 
 ## Role
 
-The strongest way to describe this work is as product and delivery support: helping the work move, clarifying what needed to happen next, and contributing where the digital side of the campaign needed structure.
+The role was a mix of coordination, digital delivery support, and practical contribution wherever the campaign needed structure. That included helping the work move forward, clarifying immediate priorities, and supporting the digital side of a public-facing project without treating implementation as separate from the broader campaign context.
 
-## What still needs a fuller case study
+## Why it matters
 
-- the exact scope of the digital work
-- the campaign goals and how the product supported them
-- stronger outcome framing once the project story is expanded
+Not every worthwhile project is a deep platform build. Some are valuable because they demand adaptability, communication, and the ability to keep momentum across moving pieces. Inspire Me fits that pattern: delivery work that supports visibility, narrative, and execution at the same time.

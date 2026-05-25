@@ -17,15 +17,15 @@ const path = `/${entry.id}/`;
 const pageMeta = {
   about: {
     image: "/bg-about.jpg",
-    asideTitle: "How the site is being shaped",
+    asideTitle: "How Warren works",
     asideBody:
-      "The profile is moving toward a clearer story about delivery, systems thinking, and product execution rather than a dense chronological CV.",
+      "The profile is centred on delivery judgment, systems thinking, and practical execution rather than a long chronological resume.",
   },
   now: {
     image: "/bg-city2.jpg",
-    asideTitle: "Why this page exists",
+    asideTitle: "Current focus",
     asideBody:
-      "A dedicated now page keeps current priorities visible without forcing them into the evergreen About page.",
+      "This page keeps active priorities visible and gives a clearer sense of where current energy is being directed.",
   },
   contact: {
     image: "/bg-shrine.jpg",
@@ -57,7 +57,7 @@ const pageMeta = {
         <aside class="panel page-aside">
           <img src={pageMeta.image} alt="" />
           <div class="page-aside__body">
-            <span class="kicker">Editorial note</span>
+            <span class="kicker">Context</span>
             <h2>{pageMeta.asideTitle}</h2>
             <p>{pageMeta.asideBody}</p>
           </div>
