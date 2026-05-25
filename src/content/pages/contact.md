@@ -1,16 +1,16 @@
 ---
 title: Contact
 description: Public ways to connect with Warren Dodsworth.
-intro: Reach out through the public channels that already exist.
+intro: The easiest way to connect is through the public channels already in use.
 kicker: Contact
 order: 3
 ---
 
-The site is still being expanded, so the simplest way to reach out is through the public profiles already in use.
+For professional conversations, project discussions, or thoughtful outreach, the best contact points are the public profiles below.
 
 - LinkedIn is the best place for professional context and direct outreach
 - [GitHub](https://github.com/warrendodsworth)
 - [LinkedIn](https://www.linkedin.com/in/warren-dodsworth-4a396722/)
 - [Instagram](https://instagram.com/warrendods)
 
-If the site later adds a direct contact path, it should stay low-friction and focused on meaningful conversations rather than generic form traffic.
+If a direct contact option is added here later, it should stay simple, human, and focused on real conversations rather than generic form traffic.
