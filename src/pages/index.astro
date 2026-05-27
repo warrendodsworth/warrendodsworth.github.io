@@ -2,7 +2,9 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const allProjects = await getCollection("projects");
+const allProjects = (await getCollection("projects")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
 const allPosts = await getCollection("blog");
 const featuredProjects = allProjects.filter((project) => project.data.featured);
 const latestPost = allPosts[0];
@@ -41,18 +43,18 @@ const pillars = [
       </div>
       <div class="hero-stack">
         <div class="panel hero-note">
-          <span class="kicker">What the work looks like</span>
-          <h2>Strategy when direction is fuzzy. Delivery when the work needs to land.</h2>
+          <span class="kicker">Current focus</span>
+          <h2>People platforms, decision-support products, and delivery that holds together.</h2>
           <p>
-            That can mean improving business workflows, designing product structure, building core
-            application logic, or helping a team move from scattered effort to a more coherent
-            operating rhythm.
+            Current work spans products like PeopleX and Insight 91, with a focus on creating
+            useful systems, stronger product narratives, and delivery that does not get lost in
+            complexity.
           </p>
         </div>
         <div class="panel hero-image">
           <img
             src="/warren-professional.png"
-            alt="Professional portraits of Warren Dodsworth"
+            alt="Professional portrait of Warren Dodsworth"
           />
         </div>
       </div>
@@ -83,10 +85,10 @@ const pillars = [
         </article>
         <article class="panel feature-card">
           <span class="kicker">Projects</span>
-          <h3>Product stories with real scope, real constraints, and real outcomes.</h3>
+          <h3>Product stories with real scope, systems, and outcomes.</h3>
           <p>
-            The projects section is where strategy, product framing, and delivery decisions are
-            translated into concrete examples rather than a list of disconnected technologies.
+            Projects like PeopleX, Insight 91, and other product builds show how strategy,
+            architecture, and delivery come together in practice.
           </p>
           <a class="button-muted" href="/projects/">Browse projects</a>
         </article>
