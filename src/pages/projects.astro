@@ -2,7 +2,9 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const projects = await getCollection("projects");
+const projects = (await getCollection("projects")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
 ---
 
 <BaseLayout
@@ -17,9 +19,9 @@ const projects = await getCollection("projects");
         <span class="kicker">Projects</span>
         <h1>Case studies, product work, and selected builds.</h1>
         <p>
-          These projects reflect a consistent thread through the work: clearer systems, stronger
-          product direction, and delivery decisions that help people move from uncertainty to
-          action.
+          These projects span SaaS platforms, investor tooling, and product-led builds, with a
+          consistent thread of clearer systems, stronger product direction, and delivery decisions
+          that help people move from uncertainty to action.
         </p>
       </div>
       <div class="grid project-grid">
